@@ -60,6 +60,8 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
+.logo { font-size: 2rem; }
+
 .logo:hover {
     cursor: default;
 }
@@ -257,7 +259,7 @@ text-align: center;
 #about {
     position: relative;
 }
-.about-container {
+.about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -268,7 +270,7 @@ text-align: center;
     flex-direction: column;
 }
 
-.about-container, 
+.about-containers, 
 .about-details-container {
     display: flex;
     
@@ -404,7 +406,9 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 }
-
+.contact-info-container p {
+    font-size: larger;
+  }
 /* FOOTER */
 footer {
     height: 26vh;
