@@ -263,6 +263,7 @@ text-align: center;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -278,12 +279,14 @@ text-align: center;
 
 .about-pic {
     border-radius: 2rem;
+    
 }
 
 .arrow {
     position: absolute;
+    
     right: -5rem;
-    bottom: 2.5rem;
+    bottom: 1rem;
 }
 
 
@@ -346,6 +349,7 @@ article .icon {
 /* PROJECTS SECTION */
 #projects{
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .color-container {
@@ -374,6 +378,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 3rem;
 }
 
 .contact-info-upper-container {
@@ -416,4 +421,9 @@ footer {
 }
 footer p{
     text-align: center;
+}
+
+
+@media all and (max-width: 600px){
+   
 }
